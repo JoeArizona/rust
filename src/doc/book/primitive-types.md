@@ -51,7 +51,7 @@ These types consist of two parts: the category, and the size. For example,
 `u16` is an unsigned type with sixteen bits of size. More bits lets you have
 bigger numbers.
 
-If a number literal has nothing to cause its type to be inferred, it defaults:
+If the type is not specified, the compiler infers the type based on the assigned value:
 
 ```rust
 let x = 42; // x has type i32
